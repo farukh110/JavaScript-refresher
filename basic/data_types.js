@@ -29,10 +29,22 @@
 // "33abc" => NaN
 // true => 1; false => 0
 
-let isLoggedIn = 1;
+// let isLoggedIn = 1;
 
-let valueInBoolean = Boolean(isLoggedIn);
+// let valueInBoolean = Boolean(isLoggedIn);
 
-console.log(typeof valueInBoolean);
+// console.log(typeof valueInBoolean);
 
-console.log(valueInBoolean);
+// console.log(valueInBoolean);
+
+// console.log("1"+2);
+
+// console.log(1+"2");
+
+// console.log(1+"2"+"2");
+
+// console.log(1+2+"2");
+
+// console.log(+true);
+
+// console.log(true+);
