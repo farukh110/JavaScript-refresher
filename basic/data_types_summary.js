@@ -41,5 +41,34 @@ let user_two = user_one;
 
 user_two.email = 'farukh.sajjad@trax.pk'
 
-console.log('user_one: ', user_one.email);
-console.log('user_two: ', user_two.email);
+// console.log('user_one: ', user_one.email);
+// console.log('user_two: ', user_two.email);
+
+const game1 = new String('React Developer');
+
+// console.log(game1[0]);
+
+// console.log(game1.__proto__);
+
+// const newString = game1.substring(0, 4);
+
+// console.log(newString);
+
+// const newString = game1.slice(2, -8);
+
+// console.log(newString);
+
+// const url = "http://app.sonic/tracking_id%27order";
+
+// console.log(url.replace('%27', '=27&'));
+
+let domain = 'oan-sajjad-com';
+
+// console.log(domain.split('-'));
+
+// for(let maryam = 1; maryam <= 5; maryam++) {
+
+//     console.log('maryam');
+// }
+
+// console.log(8 + 11);
