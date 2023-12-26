@@ -19,12 +19,36 @@
 
 // console.log(result);
 
-const loginUserMessage = (username = 'john') => {
+// const loginUserMessage = (username = 'john') => {
 
-    if(!username) {
-       console.log('please enter an username'); 
-    }
-    return `${username} just logged in`;
+//     if(!username) {
+//        console.log('please enter an username'); 
+//     }
+//     return `${username} just logged in`;
+// }
+
+// console.log(loginUserMessage('oan'));
+
+// const calculateCartPrice = (...num) => {
+//     return num;
+// }
+
+// console.log(calculateCartPrice(100, 200, 300));
+
+// const calculateCartPrice = (v1, v2, ...num) => {
+//     return num;
+// }
+
+// console.log(calculateCartPrice(100, 200, 300));
+
+const user = {
+    username: 'oan',
+    price: 3000
 }
 
-console.log(loginUserMessage('oan'));
+const handleObject = (anyObj) => {
+
+    return `user name is: ${anyObj.username} and price is ${anyObj.price}`;
+}
+
+console.log(handleObject(user));
