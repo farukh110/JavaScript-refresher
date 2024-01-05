@@ -65,15 +65,15 @@
 
 // console.log(username);
 
-console.log(addone(5));
+// console.log(addone(5));
 
-function addone(num) {
-    return num + 1;
-}
+// function addone(num) {
+//     return num + 1;
+// }
 
-console.log(addTwo(5));
+// console.log(addTwo(5));
 
-const addTwo = (num) => {
+// const addTwo = (num) => {
 
-    return num + 2;
-} 
+//     return num + 2;
+// } 
