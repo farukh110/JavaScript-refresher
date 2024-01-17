@@ -13,26 +13,12 @@
     
 <script>
 
-    const hiOan = () => {
+    setInterval(() => {
         
-        console.log('hi oan');
+        console.log('Oan');
 
-    }
-
-    const changeText = () => {
-
-        document.querySelector('h1').innerHTML = 'Best JS series';
-    }
-
-
-    const changeMe = setTimeout(changeText, 2000);
-
-    document.querySelector('#stop').addEventListener('click', () => {
-
-        clearTimeout(changeMe);
-        console.log('stopped');
-    });
-
+    }, 1000);
+    
 </script>    
 </body>
 </html>
