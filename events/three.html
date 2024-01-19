@@ -9,16 +9,28 @@
 
     <h1> Chai or Code </h1>
 
+    <button id="start">Start</button>
     <button id="stop">Stop</button>
     
 <script>
 
-    setInterval(() => {
-        
-        console.log('Oan');
+    const sayDate = (str) => {
 
-    }, 1000);
+        console.log(`str: ${str} , ${Date.now()}`);
+    }
+
+    let intervalId;
     
+    document.getElementById('start').addEventListener('click', () => {
+
+        intervalId = setInterval(sayDate, 1000, 'hi');
+    });
+
+    document.getElementById('stop').addEventListener('click', () => {
+
+        clearInterval(intervalId);
+    });
+
 </script>    
 </body>
 </html>
